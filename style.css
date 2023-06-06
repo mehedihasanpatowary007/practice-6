@@ -3,6 +3,19 @@
 	background-color: #0c3440;
 	border-bottom: 2px solid #fdc300;
 }
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.nav a{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	align-items: center;
+}
+.nav a:hover{
+	color: crimson;
+}
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:hover
